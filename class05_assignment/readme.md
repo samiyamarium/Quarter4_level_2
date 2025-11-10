@@ -1,1 +1,3 @@
 This repository contains index.html and style.css file created using gemini CLI . The image canva_ss.png was provided to gemini CLI , it extracted info and generated a webpage based on extracted info.
+
+image.png shows output webpage using index.html and style.css files created as mentioned.
