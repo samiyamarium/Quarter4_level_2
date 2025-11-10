@@ -1,0 +1,205 @@
+body {
+    margin: 0;
+    font-family: Calibri, sans-serif;
+    color: white;
+    background: linear-gradient(to bottom, #8e44ad, #3498db);
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 28px;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.auth-buttons button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.auth-buttons .signup {
+    background-color: #9b59b6;
+    color: white;
+    font-family: Calibri;
+}
+
+.auth-buttons .login {
+    background-color: white;
+    color: black;
+    font-family: Calibri;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-grow: 1;
+    margin-top: 0;
+    padding-top: 4px;
+}
+
+.hero h1 {
+    font-size: 120px;
+    margin: 0;
+    line-height: 1.2;
+    //font-family: Calibri;
+    font-family: "Calibri";
+    font-weight: 400px;
+}
+
+.hero p {
+    font-size: 28px;
+    margin: 20px 0;
+}
+
+.cta-buttons button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    margin: 0 10px;
+    font-family: Calibri;
+    font-size: 16px;
+}
+
+.cta-buttons .start-designing {
+    background-color: white;
+    color: black;
+}
+
+.cta-buttons .explore-launches {
+    background-color: #34495e;
+    color: white;
+}
+
+.bottom-images {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.t-shape {
+    position: absolute;
+    bottom: 20px;
+    left: 10%;
+    width: 60px;
+    height: 40px;
+    background-color: #add8e6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+
+.a-shape {
+    position: absolute;
+    bottom: 20px;
+    left: 20%;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ff69b4;
+}
+
+.circle-shape {
+    position: absolute;
+    bottom: 30px;
+    left: 30%;
+    width: 40px;
+    height: 40px;
+    background-color: #ff69b4;
+    border-radius: 50%;
+}
+
+.three-d-shape {
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(45deg, #8e44ad, #3498db);
+    transform: skew(-20deg);
+}
+
+.graduation-cap {
+    position: absolute;
+    bottom: 20px;
+    right: 15%;
+    width: 100px;
+    height: 80px;
+}
+
+.cap-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    height: 20px;
+    background-color: #800080;
+    transform: skew(-30deg);
+}
+
+.cap-body {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    width: 50px;
+    height: 40px;
+    background-color: #800080;
+}
+
+.tassel {
+    position: absolute;
+    top: 0px;
+    left: 80px;
+    width: 10px;
+    height: 40px;
+    background-color: #ffd700;
+}
