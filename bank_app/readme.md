@@ -1,4 +1,5 @@
 # Mini Bank App (FastAPI + HTML)
+# App link : https://minibankpy-mvrfmaqxtsserwfuj7ixmt.streamlit.app/
 
 A simple banking demo with:
 - User authentication
@@ -13,7 +14,7 @@ uvicorn main:app --reload
 ## Open UI
 Open bank.html in your browser
 
-##dummy data to authenticate
+# dummy data to authenticate
 
 users = {
     "ali": {"pin": 1234, "bank_balance": 10000},
